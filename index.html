@@ -1,97 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gatísticos</title>
-    <link rel="icon" type="image/png" href="./assets/imgs/favicon.ico">
-    <link rel="stylesheet" href="./assets/css/normalize.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body class="grid-container">
+    <link rel="icon" type="image/png" href="./assets/imgs/favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="grid-container">
     <div class="navbar">
-        <div class="nav-left">
-            <img src="./assets/imgs/pixie-bob-cat.png" alt="icono gatito">
-            <h1>Gatístico</h1>
-        </div>
-        <div class="nav-right">
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa-solid fa-bars fa-2xl"></i>
-        </a>
-        </div>
-        <div class="sidebar" id="links">
-                <h2><a href="">Quiénes somos</a></h2>
-                <h2><a href="">Nuestras Tiendas</a></h2>
-                <h2><a href="">Términos y Condiciones</a></h2>
-            </div>
-        </div>
-    </div>
-    
-    <div class="dropdown">
-        <label for="categoria">Escoge una categoría</label>
-        <select name="categoria" id="categoria">
-          <option value="accesorios">Accesorios</option>
-          <option value="alimento">Alimento</option>
-          <option value="alimento">Gato</option>
-          <option value="alimento">Perro</option>
-          <option value="alimento">Higiene</option>
-        </select>
+      <div class="nav-left">
+        <img src="./assets/imgs/pixie-bob-cat.png" alt="icono gatito" />
+        <h1>Gatístico</h1>
       </div>
+      <div class="nav-right">
+        <i class="fa-solid fa-bars fa-2xl"></i>
+      </div>
+    </div>
+    <div class="sidebar">
+      <h2><a href="">Quiénes somos</a></h2>
+      <h2><a href="">Nuestras Tiendas</a></h2>
+      <h2><a href="">Términos y Condiciones</a></h2>
+    </div>
+
+    <div class="dropdown">
+      <label for="categoria">Escoge una categoría</label>
+      <select name="categoria" id="categoria">
+        <option value="accesorios">Accesorios</option>
+        <option value="alimento">Alimento</option>
+        <option value="alimento">Gato</option>
+        <option value="alimento">Perro</option>
+        <option value="alimento">Higiene</option>
+      </select>
+    </div>
     <div class="main">
-        <div class="cards">
-            <img src="./assets/imgs/alimento-humedo1.jpeg" alt="alimento humedo">
-            <h3>Alimento húmedo pavo</h3>
-            <button>Ver Más</button>
-        </div>
-        <div class="cards">
-            <img src="./assets/imgs/alimento-humedo2.jpeg" alt="alimento humedo">
-            <h3>Alimento húmedo salmón</h3>
-            <button>Ver Más</button>
-        </div>
-        <div class="cards">
-            <img src="./assets/imgs/alimento-seco1.jpeg" alt="alimento seco">
-            <h3>Alimento Gato</h3>
-            <button>Ver Más</button>
-        </div>
-        <div class="cards">
-            <img src="./assets/imgs/alimento-seco2.jpeg" alt="alimento seco">
-            <h3>Alimento Perro</h3>
-            <button>Ver Más</button>
-        </div>
-        <div class="cards">
-            <img src="./assets/imgs/antiparasitario.jpeg" alt="antiparasitario">
-            <h3>Antiparasitario</h3>
-            <button>Ver Más</button>
-        </div>
-        <div class="cards">
-            <img src="./assets/imgs/arena.jpeg" alt="arena">
-            <h3>Arena sanitaria</h3>
-            <button>Ver Más</button>
-        </div>
-        <div class="cards">
-            <img src="./assets/imgs/juguetes.png" alt="juguetes">
-            <h3>Juguete Gato</h3>
-            <button>Ver Más</button>
-        </div>
+      <div class="cards">
+        <img src="./assets/imgs/alimento-humedo1.jpeg" alt="alimento humedo" />
+        <h3>Alimento húmedo pavo</h3>
+        <button>Ver Más</button>
+      </div>
+      <div class="cards">
+        <img src="./assets/imgs/alimento-humedo2.jpeg" alt="alimento humedo" />
+        <h3>Alimento húmedo salmón</h3>
+        <button>Ver Más</button>
+      </div>
+      <div class="cards">
+        <img src="./assets/imgs/alimento-seco1.jpeg" alt="alimento seco" />
+        <h3>Alimento Gato</h3>
+        <button>Ver Más</button>
+      </div>
+      <div class="cards">
+        <img src="./assets/imgs/alimento-seco2.jpeg" alt="alimento seco" />
+        <h3>Alimento Perro</h3>
+        <button>Ver Más</button>
+      </div>
+      <div class="cards">
+        <img src="./assets/imgs/antiparasitario.jpeg" alt="antiparasitario" />
+        <h3>Antiparasitario</h3>
+        <button>Ver Más</button>
+      </div>
+      <div class="cards">
+        <img src="./assets/imgs/arena.jpeg" alt="arena" />
+        <h3>Arena sanitaria</h3>
+        <button>Ver Más</button>
+      </div>
+      <div class="cards">
+        <img src="./assets/imgs/juguetes.png" alt="juguetes" />
+        <h3>Juguete Gato</h3>
+        <button>Ver Más</button>
+      </div>
     </div>
     <div class="footer">
-        <h3>Contáctanos a gatisticos@gatogato.cl</h3>
-        <div>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+      <h3>Contáctanos a gatisticos@gatogato.cl</h3>
+      <div>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
     </div>
-    </div>
-    <script>
-        function myFunction() {
-  var x = document.getElementById("links");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-    </script>
-</body>
+  </body>
 </html>
