@@ -2,6 +2,66 @@
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@100;500&display=swap');
 
 
+/* Estilos Generales */
+body {
+  background-image: url(../imgs/backround.png);
+  background-position: center;
+  background-repeat: repeat;
+  
+}
+
+.navbar {
+  background-color: #FFA69E;
+  grid-area: navbar;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main
+}
+
+.footer {
+  grid-area: footer;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+/*Media Queries */
+
+@media (max-width: 576px) {
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: 'navbar navbar' 'sidebar main' 'footer footer';
+  }
+  .navbar img {
+    width: 60px;
+  }
+  
+  .navbar h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 32px;
+  }
+  
+
+}
+
+
+
   /* font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto Mono', monospace;
 
